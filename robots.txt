@@ -1,0 +1,2 @@
+﻿User-agent: *
+Sitemap: https://edlazar_ru.itsinsta.site/sitemap.xml
