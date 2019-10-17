@@ -30,6 +30,9 @@
     <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#fff">
 
+    <!--modernizr-->
+	<script src="js/vendors/modernizr-custom.js"></script>
+
 </head>
 <body>
     <!--[if lt IE 8]>
@@ -46,7 +49,7 @@
 				<div class="header__wrap">
 					<div class="header__left">
 						<a href="./main.html" class="header__logo">
-							<div class="header__logo-pic"><img src="https://scontent-arn2-2.cdninstagram.com/vp/6168699020e49ee7f55a764e82933673/5E3AF491/t51.2885-19/s150x150/67499711_696496137430195_4517104786960547840_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com" alt="ЭКСКЛЮЗИВНАЯ МЕБЕЛЬ"></div>
+							<div class="header__logo-pic"><img src="https://scontent-arn2-2.cdninstagram.com/vp/e2b7f1371cd02a11370bb3f59401387e/5E628191/t51.2885-19/s150x150/67499711_696496137430195_4517104786960547840_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com" alt="ЭКСКЛЮЗИВНАЯ МЕБЕЛЬ"></div>
 							<div class="header__logo-txt">edlazar.ru</div>
 						</a>
 						<div class="header__title">ЭКСКЛЮЗИВНАЯ МЕБЕЛЬ</div>
@@ -56,323 +59,352 @@
 		</header>	
 		<div class="main">
 
-			<div class="stories" style="display: none;">
-				<div class="container">
+		<div class="stories">
+			<div class="container">
+				<div class="stories__slider-wrap">
 					<div class="stories__slider" id="js-stories-slider">
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="edlazar">
-								<a href="./tags/./edlazar.html">
-									<div class="stories__slide-pic"><img src="./img/og/edlazar.png" alt="edlazar" /></div>
-									<div class="stories__slide-txt">edlazar</div>
-								</a>
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="stories__slide" title="edlazar">
+									<a href="./tags/./edlazar.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/edlazar.png);"></div>
+										<div class="stories__slide-txt">edlazar</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="interior">
-								<a href="./tags/./interior.html">
-									<div class="stories__slide-pic"><img src="./img/og/interior.png" alt="interior" /></div>
-									<div class="stories__slide-txt">interior</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="interior">
+									<a href="./tags/./interior.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/interior.png);"></div>
+										<div class="stories__slide-txt">interior</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="мебель">
-								<a href="./tags/./mebelx.html">
-									<div class="stories__slide-pic"><img src="./img/og/mebel'.png" alt="мебель" /></div>
-									<div class="stories__slide-txt">мебель</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="мебель">
+									<a href="./tags/./mebel-.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/mebel-.png);"></div>
+										<div class="stories__slide-txt">мебель</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="дизайн">
-								<a href="./tags/./dizayn.html">
-									<div class="stories__slide-pic"><img src="./img/og/dizayn.png" alt="дизайн" /></div>
-									<div class="stories__slide-txt">дизайн</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="дизайн">
+									<a href="./tags/./dizayn.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/dizayn.png);"></div>
+										<div class="stories__slide-txt">дизайн</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="design">
-								<a href="./tags/./design.html">
-									<div class="stories__slide-pic"><img src="./img/og/design.png" alt="design" /></div>
-									<div class="stories__slide-txt">design</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="design">
+									<a href="./tags/./design.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/design.png);"></div>
+										<div class="stories__slide-txt">design</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="дизайнер">
-								<a href="./tags/./dizayner.html">
-									<div class="stories__slide-pic"><img src="./img/og/dizayner.png" alt="дизайнер" /></div>
-									<div class="stories__slide-txt">дизайнер</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="дизайнер">
+									<a href="./tags/./dizayner.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/dizayner.png);"></div>
+										<div class="stories__slide-txt">дизайнер</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="furniture">
-								<a href="./tags/./furniture.html">
-									<div class="stories__slide-pic"><img src="./img/og/furniture.png" alt="furniture" /></div>
-									<div class="stories__slide-txt">furniture</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="furniture">
+									<a href="./tags/./furniture.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/furniture.png);"></div>
+										<div class="stories__slide-txt">furniture</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="великий новгород">
-								<a href="./tags/./velikiy-novgorod.html">
-									<div class="stories__slide-pic"><img src="./img/og/velikiy-novgorod.png" alt="великий новгород" /></div>
-									<div class="stories__slide-txt">великий новгород</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="великий новгород">
+									<a href="./tags/./velikiy-novgorod.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/velikiy-novgorod.png);"></div>
+										<div class="stories__slide-txt">великий новгород</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="home">
-								<a href="./tags/./home.html">
-									<div class="stories__slide-pic"><img src="./img/og/home.png" alt="home" /></div>
-									<div class="stories__slide-txt">home</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="home">
+									<a href="./tags/./home.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/home.png);"></div>
+										<div class="stories__slide-txt">home</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="мебель на заказ">
-								<a href="./tags/./mebelx-na-zakaz.html">
-									<div class="stories__slide-pic"><img src="./img/og/mebel'-na-zakaz.png" alt="мебель на заказ" /></div>
-									<div class="stories__slide-txt">мебель на заказ</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="мебель на заказ">
+									<a href="./tags/./mebel--na-zakaz.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/mebel--na-zakaz.png);"></div>
+										<div class="stories__slide-txt">мебель на заказ</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="интерьер">
-								<a href="./tags/./interxer.html">
-									<div class="stories__slide-pic"><img src="./img/og/inter'er.png" alt="интерьер" /></div>
-									<div class="stories__slide-txt">интерьер</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="интерьер">
+									<a href="./tags/./inter-er.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/inter-er.png);"></div>
+										<div class="stories__slide-txt">интерьер</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="эксклюзив">
-								<a href="./tags/./eksklyuziv.html">
-									<div class="stories__slide-pic"><img src="./img/og/eksklyuziv.png" alt="эксклюзив" /></div>
-									<div class="stories__slide-txt">эксклюзив</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="эксклюзив">
+									<a href="./tags/./eksklyuziv.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/eksklyuziv.png);"></div>
+										<div class="stories__slide-txt">эксклюзив</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="диван">
-								<a href="./tags/./divan.html">
-									<div class="stories__slide-pic"><img src="./img/og/divan.png" alt="диван" /></div>
-									<div class="stories__slide-txt">диван</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="дизайн интерьера">
+									<a href="./tags/./dizayn-inter-era.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/dizayn-inter-era.png);"></div>
+										<div class="stories__slide-txt">дизайн интерьера</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="mebel">
-								<a href="./tags/./mebel.html">
-									<div class="stories__slide-pic"><img src="./img/og/mebel.png" alt="mebel" /></div>
-									<div class="stories__slide-txt">mebel</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="диван">
+									<a href="./tags/./divan.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/divan.png);"></div>
+										<div class="stories__slide-txt">диван</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="дизайн интерьера">
-								<a href="./tags/./dizayn-interxera.html">
-									<div class="stories__slide-pic"><img src="./img/og/dizayn-inter'era.png" alt="дизайн интерьера" /></div>
-									<div class="stories__slide-txt">дизайн интерьера</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="mebel">
+									<a href="./tags/./mebel.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/mebel.png);"></div>
+										<div class="stories__slide-txt">mebel</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="design er">
-								<a href="./tags/./design-er.html">
-									<div class="stories__slide-pic"><img src="./img/og/design-er.png" alt="design er" /></div>
-									<div class="stories__slide-txt">design er</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="design er">
+									<a href="./tags/./design-er.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/design-er.png);"></div>
+										<div class="stories__slide-txt">design er</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="новгород">
-								<a href="./tags/./novgorod.html">
-									<div class="stories__slide-pic"><img src="./img/og/novgorod.png" alt="новгород" /></div>
-									<div class="stories__slide-txt">новгород</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="эксклюзивная мебель">
+									<a href="./tags/./eksklyuzivnaya-mebel-.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/eksklyuzivnaya-mebel-.png);"></div>
+										<div class="stories__slide-txt">эксклюзивная мебель</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="эксклюзивная мебель">
-								<a href="./tags/./eksklyuzivnaya-mebelx.html">
-									<div class="stories__slide-pic"><img src="./img/og/eksklyuzivnaya-mebel'.png" alt="эксклюзивная мебель" /></div>
-									<div class="stories__slide-txt">эксклюзивная мебель</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="новгород">
+									<a href="./tags/./novgorod.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/novgorod.png);"></div>
+										<div class="stories__slide-txt">новгород</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="Москва">
-								<a href="./tags/./moskva.html">
-									<div class="stories__slide-pic"><img src="./img/og/Moskva.png" alt="Москва" /></div>
-									<div class="stories__slide-txt">Москва</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="дизайнерская мебель">
+									<a href="./tags/./dizaynerskaya-mebel-.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/dizaynerskaya-mebel-.png);"></div>
+										<div class="stories__slide-txt">дизайнерская мебель</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="дизайнерская мебель">
-								<a href="./tags/./dizaynerskaya-mebelx.html">
-									<div class="stories__slide-pic"><img src="./img/og/dizaynerskaya-mebel'.png" alt="дизайнерская мебель" /></div>
-									<div class="stories__slide-txt">дизайнерская мебель</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="Москва">
+									<a href="./tags/./moskva.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/Moskva.png);"></div>
+										<div class="stories__slide-txt">Москва</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="дизайн студия">
-								<a href="./tags/./dizayn-studiya.html">
-									<div class="stories__slide-pic"><img src="./img/og/dizayn-studiya.png" alt="дизайн студия" /></div>
-									<div class="stories__slide-txt">дизайн студия</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="design interior">
+									<a href="./tags/./design-interior.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/design-interior.png);"></div>
+										<div class="stories__slide-txt">design interior</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="питер">
-								<a href="./tags/./piter.html">
-									<div class="stories__slide-pic"><img src="./img/og/piter.png" alt="питер" /></div>
-									<div class="stories__slide-txt">питер</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="дизайн студия">
+									<a href="./tags/./dizayn-studiya.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/dizayn-studiya.png);"></div>
+										<div class="stories__slide-txt">дизайн студия</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="design interior">
-								<a href="./tags/./design-interior.html">
-									<div class="stories__slide-pic"><img src="./img/og/design-interior.png" alt="design interior" /></div>
-									<div class="stories__slide-txt">design interior</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="питер">
+									<a href="./tags/./piter.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/piter.png);"></div>
+										<div class="stories__slide-txt">питер</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="элитная мебель">
-								<a href="./tags/./elitnaya-mebelx.html">
-									<div class="stories__slide-pic"><img src="./img/og/elitnaya-mebel'.png" alt="элитная мебель" /></div>
-									<div class="stories__slide-txt">элитная мебель</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="velikiynovgorod">
+									<a href="./tags/./velikiynovgorod.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/velikiynovgorod.png);"></div>
+										<div class="stories__slide-txt">velikiynovgorod</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="velikiynovgorod">
-								<a href="./tags/./velikiynovgorod.html">
-									<div class="stories__slide-pic"><img src="./img/og/velikiynovgorod.png" alt="velikiynovgorod" /></div>
-									<div class="stories__slide-txt">velikiynovgorod</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="элитная мебель">
+									<a href="./tags/./elitnaya-mebel-.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/elitnaya-mebel-.png);"></div>
+										<div class="stories__slide-txt">элитная мебель</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="гостиная">
-								<a href="./tags/./gostinaya.html">
-									<div class="stories__slide-pic"><img src="./img/og/gostinaya.png" alt="гостиная" /></div>
-									<div class="stories__slide-txt">гостиная</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="гостиная">
+									<a href="./tags/./gostinaya.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/gostinaya.png);"></div>
+										<div class="stories__slide-txt">гостиная</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="мебель для дома">
-								<a href="./tags/./mebelx-dlya-doma.html">
-									<div class="stories__slide-pic"><img src="./img/og/mebel'-dlya-doma.png" alt="мебель для дома" /></div>
-									<div class="stories__slide-txt">мебель для дома</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="мебель для дома">
+									<a href="./tags/./mebel--dlya-doma.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/mebel--dlya-doma.png);"></div>
+										<div class="stories__slide-txt">мебель для дома</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="мастерская">
-								<a href="./tags/./masterskaya.html">
-									<div class="stories__slide-pic"><img src="./img/og/masterskaya.png" alt="мастерская" /></div>
-									<div class="stories__slide-txt">мастерская</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="мебель люкс">
+									<a href="./tags/./mebel--lyuks.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/mebel--lyuks.png);"></div>
+										<div class="stories__slide-txt">мебель люкс</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="стиль">
-								<a href="./tags/./stilx.html">
-									<div class="stories__slide-pic"><img src="./img/og/stil'.png" alt="стиль" /></div>
-									<div class="stories__slide-txt">стиль</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="lux ury">
+									<a href="./tags/./lux-ury.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/lux-ury.png);"></div>
+										<div class="stories__slide-txt">lux ury</div>
+									</a>
+								</div>
 							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="мебель люкс">
-								<a href="./tags/./mebelx-lyuks.html">
-									<div class="stories__slide-pic"><img src="./img/og/mebel'-lyuks.png" alt="мебель люкс" /></div>
-									<div class="stories__slide-txt">мебель люкс</div>
-								</a>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="дизайн дома">
+									<a href="./tags/./dizayn-doma.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/dizayn-doma.png);"></div>
+										<div class="stories__slide-txt">дизайн дома</div>
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
+					<div class="stories__arrow stories__arrow--prev" id="js-stories-prev"></div>
+					<div class="stories__arrow stories__arrow--next" id="js-stories-next"></div>
 				</div>
 			</div>
+		</div>
 
 			<div class="links-page">
 				<div class="container">
+
+					<div class="links-page-title">ЭКСКЛЮЗИВНАЯ МЕБЕЛЬ</div>
+
+					<div class="links-page-messagers">
+						<a href="https://wa.me/79116248167" target="_blank" 
+							class="links-page-messager">
+							<i class="fa fa-whatsapp" aria-hidden="true"></i>WhatsApp
+						</a>
+
+
+
+
+
+
+						<a href="https://www.instagram.com/edlazar.ru" target="_blank" class="links-page-messager">
+							<i class="fa fa-instagram" aria-hidden="true"></i>Instagram
+						</a>
+					</div>
+
 					<div class="links-page-list">
-						<div class="links-page-list__item">
-							<div class="links-page-list__item-txt">
+						<div class="links-page-blc">
+							<div class="links-page-blc__txt">
 								<p>ЭКСКЛЮЗИВНАЯ МЕБЕЛЬ</p>
 							</div>
 						</div>
-						<div class="links-page-list__item">
-							<div class="links-page-list__item-txt">
+
+
+						<div class="links-page-blc">
+							<div class="links-page-blc__txt">
 								<p>ПРОИЗВОДСТВО МЕБЕЛИ ПОД КОНКРЕТНЫЕ ПРОЕКТЫ<br/>Здравствуйте!<br/>Я Эдуард Лазарев - владелец, организатор и вдохновитель мастерской интерьерных решений. Занимаюсь производством мебели премиум класса более 11 лет. В каждый проект вкладываю душу, знания, профессионализм и опыт.</p>
 							</div>
 						</div>
-						<div class="links-page-list__item">
-							<a href="https://api.whatsapp.com/send?phone=79116248167" class="links-page-list__item-link">
-								<strong>Сделать заказ</strong>
-							</a>
-						</div>
-						<div class="links-page-list__item">
-							<div class="links-page-list__item-txt">
+
+
+						<a href="https://api.whatsapp.com/send?phone=79116248167" class="links-page-btn" 
+						target="_blank"
+						>
+							<strong>Сделать заказ</strong>
+						</a>
+
+
+						<div class="links-page-blc">
+							<div class="links-page-blc__txt">
 								<p>ПОЧЕМУ ИМЕННО МОЯ МЕБЕЛЬ?<br/>1. Использование только высококачественных материалов Мировых брендов<br/>2. Сотрудники мастерской имеют высокую квалификацию и большой опыт работы<br/>3. Пожизненная гарантия на каркас изделия<br/>4. Уникальность и неповторимость Дизайна</p>
 							</div>
 						</div>
-						<div class="links-page-list__item">
-							<div class="links-page-list__item-txt">
+
+
+						<div class="links-page-blc">
+							<div class="links-page-blc__txt">
 								<p>КАК ОФОРМИТЬ ЗАКАЗ?<br/>Вы делаете заявку на осуществление мебели своей мечты<br/>После обсуждения деталей начинаем воплощать мечту в реальность<br/> Утверждаем готовый проект и подписываем договор.</p>
 							</div>
 						</div>
-						<div class="links-page-list__item">
-							<div class="links-page-list__item-txt">
+
+
+						<div class="links-page-blc">
+							<div class="links-page-blc__txt">
 								<p>КАКИЕ НАШИ ВОЗМОЖНОСТИ?<br/>Мы производим мебель от мягкой и корпусной до дизайнерских предметов интерьера.<br/>Воплотим всё, что придумали вы или дизайнер, либо нашли в модном глянцевом журнале.</p>
 							</div>
 						</div>
-						<div class="links-page-list__item">
-							<div class="links-page-list__item-txt">
+
+
+						<div class="links-page-blc">
+							<div class="links-page-blc__txt">
 								<p>КАКАЯ У НАС ЦЕНОВАЯ ПОЛИТИКА?<br/>Диван:<br/>- для прихожей от 10000₽;<br/>- для кухни от 50000₽;<br/>- для гостиной от 150000₽;<br/>Корпусная мебель:<br/>- кухня от 50000₽/м;<br/>- шкаф от 50000₽;<br/>-  комод от 40000₽;<br/>Дизайнерские предметы интерьера:<br/>- вешалка от 10000₽;<br/>- светильник от 15000₽;<br/>- мягкий багет от 5000₽/м;<br/>- стул от 6000₽;<br/>- журнальный столик от 10000₽;</p>
 							</div>
 						</div>
-						<div class="links-page-list__item">
-							<a href="https://api.whatsapp.com/send?phone=79116248167" class="links-page-list__item-link">
-								<strong>ПОЗВОНИТЬ</strong>
-							</a>
-						</div>
+
+
+						<a href="https://api.whatsapp.com/send?phone=79116248167" class="links-page-btn" 
+						target="_blank"
+						>
+							<strong>ПОЗВОНИТЬ</strong>
+						</a>
+
+
 					</div>
-					<div class="links-page-bar">
-						<div class="banner__main-title">Свяжитесь с нами</div>
-						<div class="links-page-bar__banner">
-							<div class="banner__main-row">
-								<a href="https://wa.me/79116248167" target="_blank" 
-								class="banner__main-item">
-									<div class="banner__main-item-ring"><i class="fa fa-whatsapp" aria-hidden="true"></i></div>
-									<div class="banner__main-item-txt">WhatsApp</div>
-								</a>
-								<a href="https://www.instagram.com/edlazar.ru" target="_blank" 
-								class="banner__main-item">
-									<div class="banner__main-item-ring"><i class="fa fa-instagram" aria-hidden="true"></i></div>
-									<div class="banner__main-item-txt">Instagram</div>
-								</a>
-							</div>
-						</div>
+
+					<div class="links-page-soc">
+						<a href="https://www.instagram.com/edlazar.ru" target="_blank" 
+							class="links-page-soc__link" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 					</div>
+					<div class="links-page-footer">@edlazar.ru рекомендует SHORTWAYTOPAY</div>
 				</div>
 			</div>	
 		</div>			
 	</div>
+	<!--swiper-->
+	<script src="js/vendors/swiper.min.js"></script>
 	<!--jQuery-->
 	<script src="js/vendors/jquery.min.js"></script>
-	<script src="js/vendors/jquery.loadScroll.js"></script>
-	<!--device-->
-	<script src="js/vendors/slick.min.js"></script>
 	<!--init-->
 	<script src="js/jquery.init.js"></script>
 	<!--my scripts-->
