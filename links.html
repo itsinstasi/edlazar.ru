@@ -349,7 +349,8 @@
 
 
 
-						<div class="links-page-blc">
+						<div class="links-page-blc" style="
+">
 							<div class="links-page-blc__txt">
 								<p>ЭКСКЛЮЗИВНАЯ МЕБЕЛЬ</p>
 							</div>
@@ -359,7 +360,8 @@
 
 
 
-						<div class="links-page-blc">
+						<div class="links-page-blc" style="
+">
 							<div class="links-page-blc__txt">
 								<p>ПРОИЗВОДСТВО МЕБЕЛИ ПОД КОНКРЕТНЫЕ ПРОЕКТЫ<br/>Здравствуйте!<br/>Я Эдуард Лазарев - владелец, организатор и вдохновитель мастерской интерьерных решений. Занимаюсь производством мебели премиум класса более 11 лет. В каждый проект вкладываю душу, знания, профессионализм и опыт.</p>
 							</div>
@@ -383,7 +385,8 @@
 
 
 
-						<div class="links-page-blc">
+						<div class="links-page-blc" style="
+">
 							<div class="links-page-blc__txt">
 								<p>ПОЧЕМУ ИМЕННО МОЯ МЕБЕЛЬ?<br/>1. Использование только высококачественных материалов Мировых брендов<br/>2. Сотрудники мастерской имеют высокую квалификацию и большой опыт работы<br/>3. Пожизненная гарантия на каркас изделия<br/>4. Уникальность и неповторимость Дизайна</p>
 							</div>
@@ -393,7 +396,8 @@
 
 
 
-						<div class="links-page-blc">
+						<div class="links-page-blc" style="
+">
 							<div class="links-page-blc__txt">
 								<p>КАК ОФОРМИТЬ ЗАКАЗ?<br/>Вы делаете заявку на осуществление мебели своей мечты<br/>После обсуждения деталей начинаем воплощать мечту в реальность<br/> Утверждаем готовый проект и подписываем договор.</p>
 							</div>
@@ -403,7 +407,8 @@
 
 
 
-						<div class="links-page-blc">
+						<div class="links-page-blc" style="
+">
 							<div class="links-page-blc__txt">
 								<p>КАКИЕ НАШИ ВОЗМОЖНОСТИ?<br/>Мы производим мебель от мягкой и корпусной до дизайнерских предметов интерьера.<br/>Воплотим всё, что придумали вы или дизайнер, либо нашли в модном глянцевом журнале.</p>
 							</div>
@@ -413,7 +418,8 @@
 
 
 
-						<div class="links-page-blc">
+						<div class="links-page-blc" style="
+">
 							<div class="links-page-blc__txt">
 								<p>КАКАЯ У НАС ЦЕНОВАЯ ПОЛИТИКА?<br/>Диван:<br/>- для прихожей от 10000₽;<br/>- для кухни от 50000₽;<br/>- для гостиной от 150000₽;<br/>Корпусная мебель:<br/>- кухня от 50000₽/м;<br/>- шкаф от 50000₽;<br/>-  комод от 40000₽;<br/>Дизайнерские предметы интерьера:<br/>- вешалка от 10000₽;<br/>- светильник от 15000₽;<br/>- мягкий багет от 5000₽/м;<br/>- стул от 6000₽;<br/>- журнальный столик от 10000₽;</p>
 							</div>
@@ -488,6 +494,17 @@ $(document).ready(function(){
                 contentType: 'application/json',
 		data : form_data
 	}).done(function(response){
+	    var email = response.email;
+		if (email) {
+	        $("#leadSent").text("Ваш запрос отправлен на " + email);
+		} else {
+	        $("#leadSent").text("Ваш запрос отправлен");
+		}
+
+		var input = form.find('input');
+		input.attr('readonly', true);
+        input.attr("disabled", true);
+		form.find('button').attr("disabled", true);
 	}).fail(function(){
 	});
 
