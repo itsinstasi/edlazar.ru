@@ -1,0 +1,574 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>консоль</title>
+    <meta name="title" content="консоль">
+    
+    <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/> 
+    <script async src="https://use.fontawesome.com/d758daec41.js"></script>   
+	<link rel="stylesheet" href="../css/style.css"/>
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="../img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#fff">
+    <meta name="msapplication-TileImage" content="../img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#fff">
+
+	<!--modernizr-->
+	<script src="../js/vendors/modernizr-custom.js"></script>
+
+</head>
+<body>
+    <!--[if lt IE 8]>
+        <p class="browserhappy">
+            Ваш браузер <strong>устарел</strong>. Пожалуйста <a href="https://browsehappy.com/"  target="_blank">обновите</a>.
+        </p>
+    <![endif]-->
+    <noscript>
+		Вам нужно включить JavaScript в своем браузере, чтобы  отображение этой страницы было корректно.
+    </noscript>
+	<div class="wrapper">
+		<header class="header">
+			<div class="container">
+				<div class="header__wrap">
+					<div class="header__left">
+						<a href="../" class="header__logo">
+							<div class="header__logo-pic"><img src="https://scontent-arn2-2.cdninstagram.com/v/t51.2885-19/s150x150/67499711_696496137430195_4517104786960547840_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_ohc=iQYGyxM7NIsAX9DwP9g&oh=c30ab5ac9eb5bce9ac912562398b041e&oe=5ED92891" alt="ЭКСКЛЮЗИВНАЯ МЕБЕЛЬ"></div>
+							<div class="header__logo-txt">edlazar.ru</div>
+						</a>
+						<div class="header__title">ЭКСКЛЮЗИВНАЯ МЕБЕЛЬ</div>
+					</div>
+					<!--<div class="header__right">
+						<form action="#" method="get" class="search">
+							<input type="search" class="input search__input" placeholder="Поиск">
+							<button class="btn search__btn" type="submit" title="Искать"><i class="fa fa-search" aria-hidden="true"></i></button>
+						</form>
+					</div>-->
+				</div>
+			</div>
+		</header>	
+		<div class="main">
+			<div class="stories">
+				<div class="container">
+					<div class="stories__slider-wrap">
+						<div class="stories__slider" id="js-stories-slider">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="stories__slide" title="edlazar">
+										<a href="./edlazar.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/edlazar.png);"></div>
+											<div class="stories__slide-txt">edlazar</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="interior">
+										<a href="./interior.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/interior.png);"></div>
+											<div class="stories__slide-txt">interior</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="мебель">
+										<a href="./mebel-.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/mebel-.png);"></div>
+											<div class="stories__slide-txt">мебель</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="design">
+										<a href="./design.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/design.png);"></div>
+											<div class="stories__slide-txt">design</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="дизайн">
+										<a href="./dizayn.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/dizayn.png);"></div>
+											<div class="stories__slide-txt">дизайн</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="дизайнер">
+										<a href="./dizayner.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/dizayner.png);"></div>
+											<div class="stories__slide-txt">дизайнер</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="furniture">
+										<a href="./furniture.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/furniture.png);"></div>
+											<div class="stories__slide-txt">furniture</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="Великий Новгород">
+										<a href="./velikiy-novgorod.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/Velikiy-Novgorod.png);"></div>
+											<div class="stories__slide-txt">Великий Новгород</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="home">
+										<a href="./home.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/home.png);"></div>
+											<div class="stories__slide-txt">home</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="мебель на заказ">
+										<a href="./mebel--na-zakaz.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/mebel--na-zakaz.png);"></div>
+											<div class="stories__slide-txt">мебель на заказ</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="интерьер">
+										<a href="./inter-er.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/inter-er.png);"></div>
+											<div class="stories__slide-txt">интерьер</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="дизайн интерьера">
+										<a href="./dizayn-inter-era.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/dizayn-inter-era.png);"></div>
+											<div class="stories__slide-txt">дизайн интерьера</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="диван">
+										<a href="./divan.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/divan.png);"></div>
+											<div class="stories__slide-txt">диван</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="эксклюзив">
+										<a href="./eksklyuziv.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/eksklyuziv.png);"></div>
+											<div class="stories__slide-txt">эксклюзив</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="mebel">
+										<a href="./mebel.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/mebel.png);"></div>
+											<div class="stories__slide-txt">mebel</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="designer">
+										<a href="./designer.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/designer.png);"></div>
+											<div class="stories__slide-txt">designer</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="эксклюзивная мебель">
+										<a href="./eksklyuzivnaya-mebel-.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/eksklyuzivnaya-mebel-.png);"></div>
+											<div class="stories__slide-txt">эксклюзивная мебель</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="новгород">
+										<a href="./novgorod.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/novgorod.png);"></div>
+											<div class="stories__slide-txt">новгород</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="дизайнерская мебель">
+										<a href="./dizaynerskaya-mebel-.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/dizaynerskaya-mebel-.png);"></div>
+											<div class="stories__slide-txt">дизайнерская мебель</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="design interior">
+										<a href="./design-interior.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/design-interior.png);"></div>
+											<div class="stories__slide-txt">design interior</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="Москва">
+										<a href="./moskva.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/Moskva.png);"></div>
+											<div class="stories__slide-txt">Москва</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="дизайн студия">
+										<a href="./dizayn-studiya.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/dizayn-studiya.png);"></div>
+											<div class="stories__slide-txt">дизайн студия</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="питер">
+										<a href="./piter.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/piter.png);"></div>
+											<div class="stories__slide-txt">питер</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="velikiynovgorod">
+										<a href="./velikiynovgorod.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/velikiynovgorod.png);"></div>
+											<div class="stories__slide-txt">velikiynovgorod</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="гостиная">
+										<a href="./gostinaya.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/gostinaya.png);"></div>
+											<div class="stories__slide-txt">гостиная</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="элитная мебель">
+										<a href="./elitnaya-mebel-.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/elitnaya-mebel-.png);"></div>
+											<div class="stories__slide-txt">элитная мебель</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="мебель для дома">
+										<a href="./mebel--dlya-doma.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/mebel--dlya-doma.png);"></div>
+											<div class="stories__slide-txt">мебель для дома</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="мебель люкс">
+										<a href="./mebel--lyuks.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/mebel--lyuks.png);"></div>
+											<div class="stories__slide-txt">мебель люкс</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="стиль">
+										<a href="./stil-.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/stil-.png);"></div>
+											<div class="stories__slide-txt">стиль</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="lux ury">
+										<a href="./lux-ury.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/lux-ury.png);"></div>
+											<div class="stories__slide-txt">lux ury</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="stories__arrow stories__arrow--prev" id="js-stories-prev"></div>
+						<div class="stories__arrow stories__arrow--next" id="js-stories-next"></div>
+					</div>
+				</div>
+			</div>
+			<nav class="breadcrumbs">
+				<div class="container">
+					<a href="../main.html">Главная</a> / <span>консоль</span>
+				</div>
+			</nav>
+			<div class="tag">
+				<div class="container">
+					<div class="tag__group">
+						<h1 class="tag__title">консоль, Великий Новгород</h1>
+						<div class="tag__item-list">
+							<a href="../posts/./masterskaya-inter-ernykh-resheniy-31.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/23498622_2034528326824311_1919760049559830528_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=103&_nc_ohc=MB9bZgKaEIkAX9JUoj6&oh=cacee43ecbbb447c2edf3bcc2d18d998&oe=5EAB7162" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2017-11-14">14 November 2017</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>8</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>Мастерская интерьерных решений</h2>
+										<p>Мастерская интерьерных решений ED LAZAR представляет Вашему вниманию новую консоль из полированного металла покрытого лаком и стеклянной столешницей из дымчатого стекла. В геометрической конструкции консоли и её пластичных линиях проявляются растительные мотивы, делая консоль живой и визуально динамичной. Стоимость консоли 38000 рублей. По вопросам приобретения обращайтесь по телефону: 8(911)600-48-04</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./studiya-ed-lazar-izgotovila.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/22278197_177713386132807_6112886116124196864_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=107&_nc_ohc=Nuyjvt5ZZfsAX-hjuu0&oh=9ccb62cf72f7b73a1d2a0b101cd9c9d4&oe=5EB9825E" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2017-10-05">05 October 2017</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>4</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>Студия ED LAZAR изготовила</h2>
+										<p>Студия ED LAZAR изготовила консоль для аудиосистемы и виниловых пластинок. Длина консоли 1600 мм, высота 810 мм, ширина 400 мм. Консоль выполнена из клеенного массива дуба с полированным лаковым покрытием. В этой модели прекрасное сочетание геометрической простоты формы и натуральной текстуры тёплого дерева. Такие предметы мебели прекрасно подходят для современных интерьеров, своей лаконичностью формы и природными материалами. Обращайтесь по телефону +79116004804 по вопросам изготовления интересующей Вас мебели.<br/></p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./masterskaya-inter-ernykh-resheniy-10.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/v/t51.2885-15/e35/29094987_441154116304500_4401883089425399808_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100&_nc_ohc=KNk59TSN-DMAX_pxqdM&oh=ef234da714330094b65213c4b807f3e7&oe=5EA93818" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2018-03-20">20 March 2018</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>3</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>Мастерская интерьерных решений</h2>
+										<p>Мастерская интерьерных решений ED LAZAR для наших постоянных заказчиков из северной столицы изготовила такую консоль для домашнего кинотеатра. Консоль и выдвижные ящики выполнены из тонированного ясеня с масляной пропиткой. Правая часть консоли выполнена из клеенного мдф с покраской в чёрный цвет. Мы создаём стильные и запоминающиеся предметы интерьера - обращайтесь по телефону +79116004804 и во все мессенджеры. .</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./masterskaya-inter-ernykh-resheniy-33.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/23101040_1561972173879274_15847329810612224_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=110&_nc_ohc=W4HtMw0fLOgAX8ENnoq&oh=f10f7fde240cd4881e6567d81915cc6c&oe=5EA7E859" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2017-10-31">31 October 2017</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>2</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>Мастерская интерьерных решений</h2>
+										<p>Мастерская интерьерных решений ED LAZAR изготовила подвесную настенную консоль и зеркало в  массивной стёганной овальной раме. <br/>Это завершающая часть интерьера спальни, выполненной из тех же сочетаний цветов и передовых материалов.<br/>Ткань серый велюр, столешница консоли и корпус выполнены из массива дуба. Декоративный резной элемент, ручной работы.<br/>Консоль не только шикарно выглядит, но и функциональна.<br/>Размер консоли<br/>Ширина 900 глубина 230 высота 160<br/>Зеркало 1200х900 ширина стеганной окантовки зеркала 200мм <br/>Цена зеркала 25 000₽<br/>Консоль 35 000₽...</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./kachestvo-ruchnoy-raboty.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/12825981_1117947914918619_170291404_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=103&_nc_ohc=6PfemvVrvLcAX9LjLgG&oh=506b0275da29650e83d3e50cabef0216&oe=5E9E0102" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2016-03-20">20 March 2016</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>2</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>Качество ручной работы.</h2>
+										<p>Качество ручной работы... EDLAZAR.</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./my-sozdayom-izdeliyax-kotorye.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/12627852_984041565002170_974672539_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=110&_nc_ohc=75BW3bU4VmYAX89ozHE&oh=dfe06a569b1095e606873f29074c51a4&oe=5E9886B6" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2016-02-08">08 February 2016</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>2</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>Мы создаём изделия, которые</h2>
+										<p>Мы создаём изделия, которые невозможно приобрести в магазинах...Предлагаем нестандартные решения. Индивидуальная идея ждёт вас в мастерской EDLAZAR.</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./masterskaya-ed-lazar-predlagaet.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/26865340_335903440240729_4926527333340282880_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=101&_nc_ohc=35BpVEiK3wYAX-AMi1D&oh=e6eddb88e587089be8102ad57226b4ba&oe=5ED89909" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2018-01-24">24 January 2018</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>1</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>Мастерская ED LAZAR предлагает</h2>
+										<p>Мастерская ED LAZAR предлагает Вашему вниманию тумбу с выдвижными ящиками, с декоративными фасадами в виде рельефных полос. Габаритные размеры: длина 1930 мм, глубина 630 мм, высота 310 мм. Перламутровый оттенок бежевой кожи прекрасно подчёркивает форму и рельефную поверхность тумбы. Такая мебель отлично будет смотреться в современном интерьере. Мы создаём стильные и запоминающиеся предметы интерьера - обращайтесь по телефону +79116004804 и во все мессенджеры.</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./my-lyubim--modno-podbirat--nitki.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/12627869_1124848067538955_229215603_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=107&_nc_ohc=idolwA7igcoAX9mZLd1&oh=24c3dad8bb5ed22067d42c06598319d4&oe=5EAB687C" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2016-02-07">07 February 2016</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>1</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>Мы любим "модно"подбирать нитки</h2>
+										<p>Мы любим "модно"подбирать нитки изделиям. Ведь незаметные моменты делают мебель необычной...))) и стильной.</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./priglashaem-k-nam-v-salon-na-prosmotr.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/12519249_1945556112336909_642386250_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=109&_nc_ohc=bWCPUPsT86QAX_NcXNC&oh=845482e65bca7ce99b01060102bfa89e&oe=5EAEF89E" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2016-01-31">31 January 2016</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>1</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>Приглашаем к нам в салон на просмотр</h2>
+										<p>Приглашаем к нам в салон на просмотр новых экспозиций, и за интересными идеями мебельных изделий.</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./myagkie-fasady-ot-edlazar-1.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/v/t51.2885-15/e35/13658658_1573726762923264_945055053_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100&_nc_ohc=QSe6qww0OB0AX8wLVv9&oh=98db7f5e55ca69443538eb4137809343&oe=5ED957AF" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2016-08-15">15 August 2016</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>Мягкие фасады от EDLAZAR!</h2>
+										<p>Мягкие фасады от EDLAZAR! Где вы такую роскошь можете себе ещё позволить? Кроме как у нас!))) Приезжайте! Мы умеем создавать эксклюзивы!</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./my-dazhe-karkasy-delaem-kak-proizvedeniya.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/12383217_187939914898646_712162314_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=102&_nc_ohc=fAOFCSku3lEAX-vgF-H&oh=0609d7db787510c4fcf4c67ccd450d92&oe=5EAAC9EF" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2016-02-06">06 February 2016</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>Мы даже каркасы делаем как произведения</h2>
+										<p>Мы даже каркасы делаем как произведения искусства..!!! Сложные элементы для нас - это удовольствие для мыслей...) мы можем многое... Профессионалы европейских брендов оценили бы...))</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./konsol--ot-edlazar.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/12446000_685660964906799_139708832_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=103&_nc_ohc=aIZs-j-yvKwAX_kdA8-&oh=1f875fcbf79e3a468cc0eb570644f907&oe=5E927787" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2016-02-02">02 February 2016</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>Консоль от EDLAZAR.</h2>
+										<p>Консоль от EDLAZAR. Эксклюзивная разработка. У нас широкие возможности производства...)) сделаем весь интерьер с высоким вкусом.</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./nashi-izdeliya-uzhe-v-inter-ere.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/12568891_555820564577199_2091479949_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=103&_nc_ohc=bJzMEeHagRUAX_zQcEk&oh=b570a472d805c6e7e8543dd797ded944&oe=5E9D3F30" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2016-02-02">02 February 2016</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>Наши изделия уже в интерьере.</h2>
+										<p>Наши изделия уже в интерьере. Нашли своё место в доме...))) наши любимые заказчики остались довольные.))) спасибо вам)</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+							<a href="../posts/./konsol--nubuk.html" class="tag__item">
+								<div class="tag__item-img"><img src="https://scontent-arn2-1.cdninstagram.com/v/t51.2885-15/e35/12383271_993283407417627_1269039385_n.jpg?_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=103&_nc_ohc=g3MLwApUEcwAX_8nv8m&oh=3bb8da21e44e3069ff55b18c3032cb7d&oe=5EB66050" alt=""></div>
+								<div class="tag__item-desc">
+									<div class="tag__item-datas">
+										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2016-01-31">31 January 2016</time></div>
+										<div class="tag__item-datas-item"><i class="fa fa-comment-o" aria-hidden="true"></i>0</div> <div class="tag__item-datas-item"><i class="fa fa-heart" aria-hidden="true"></i>0</div>
+									</div>
+									<div class="tag__item-txt">
+										<h2>Консоль NUBUK.</h2>
+										<p>Консоль NUBUK. Эксклюзивно только от EDLAZAR. Идеальное изделие. Тонкая ручная работа. Мягкие ящики с декоративной утяжкой. Изнутри обтянуты замшей. Ноги из металлического профиля. Сочетание материалов и цвета легко подойдёт для спокойных пространств премиум класса.</p>
+										<p>...ЧИТАТЬ ДАЛЕЕ</p>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</div>			
+		<div class="banner">
+			<div class="banner__overlay" id="js-banner-overlay" onclick="document.getElementById('js-banner-overlay').classList.toggle('open');document.getElementById('js-banner-main').classList.toggle('open');"></div>
+			<button class="btn banner__btn" onclick="document.getElementById('js-banner-overlay').classList.toggle('open');document.getElementById('js-banner-main').classList.toggle('open');">
+				<span><i class="fa fa-comments-o" aria-hidden="true"></i></span>
+			</button>
+			<div class="banner__main" id="js-banner-main">
+				<div class="banner__main-title">Свяжитесь с нами</div>
+				<div class="banner__main-row">
+					<a href="https://wa.me/79116248167" target="_blank" 
+					class="banner__main-item">
+						<div class="banner__main-item-ring"><i class="fa fa-whatsapp" aria-hidden="true"></i></div>
+						<div class="banner__main-item-txt">WhatsApp</div>
+					</a>
+
+					<div class="banner__main-item disable">
+						<div class="banner__main-item-ring"><i class="fa fa-telegram" aria-hidden="true"></i></div>
+						<div class="banner__main-item-txt">Telegram</div>
+					</div>
+
+					<div class="banner__main-item disable">
+						<div class="banner__main-item-ring"><i class="fa fa-phone-square" aria-hidden="true"></i></div>
+						<div class="banner__main-item-txt">Viber</div>
+					</div>
+
+
+					<a href="https://www.instagram.com/edlazar.ru" target="_blank" 
+					class="banner__main-item">
+						<div class="banner__main-item-ring"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+						<div class="banner__main-item-txt">Instagram</div>
+					</a>
+
+				</div>
+			</div>
+		</div>			
+	</div>
+	<!--swiper-->
+	<script src="../js/vendors/swiper.min.js"></script>
+	<!--jQuery-->
+	<script src="../js/vendors/jquery.min.js"></script>
+	<!--lazyloadxt-->
+	<script src="../js/vendors/jquery.lazyloadxt.js"></script>
+	<!--init-->
+	<script src="../js/jquery.init.js"></script>
+	<!--my scripts-->
+	<script src="../js/jquery.main.js"></script>
+</body>
+</html>
