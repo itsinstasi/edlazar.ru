@@ -266,14 +266,6 @@
 								</div>
 							</div>
 							<div class="swiper-slide">
-								<div class="stories__slide" title="питер">
-									<a href="./tags/./piter.html">
-										<div class="stories__slide-pic" style="background-image: url(./img/og/piter.png);"></div>
-										<div class="stories__slide-txt" style="">питер</div>
-									</a>
-								</div>
-							</div>
-							<div class="swiper-slide">
 								<div class="stories__slide" title="гостиная">
 									<a href="./tags/./gostinaya.html">
 										<div class="stories__slide-pic" style="background-image: url(./img/og/gostinaya.png);"></div>
@@ -282,10 +274,10 @@
 								</div>
 							</div>
 							<div class="swiper-slide">
-								<div class="stories__slide" title="элитная мебель">
-									<a href="./tags/./elitnaya-mebel-.html">
-										<div class="stories__slide-pic" style="background-image: url(./img/og/elitnaya-mebel-.png);"></div>
-										<div class="stories__slide-txt" style="">элитная мебель</div>
+								<div class="stories__slide" title="питер">
+									<a href="./tags/./piter.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/piter.png);"></div>
+										<div class="stories__slide-txt" style="">питер</div>
 									</a>
 								</div>
 							</div>
@@ -294,6 +286,14 @@
 									<a href="./tags/./mebel--dlya-doma.html">
 										<div class="stories__slide-pic" style="background-image: url(./img/og/mebel--dlya-doma.png);"></div>
 										<div class="stories__slide-txt" style="">мебель для дома</div>
+									</a>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="stories__slide" title="элитная мебель">
+									<a href="./tags/./elitnaya-mebel-.html">
+										<div class="stories__slide-pic" style="background-image: url(./img/og/elitnaya-mebel-.png);"></div>
+										<div class="stories__slide-txt" style="">элитная мебель</div>
 									</a>
 								</div>
 							</div>
@@ -504,6 +504,7 @@ $(document).ready(function(){
 	}
 	else if (lid && lid == "true") {
         localStorage.setItem("hasToken", true);
+		$("#settingsContainer").show();
 	}
 	else if (localStorage.getItem("hasToken"))
 	{
